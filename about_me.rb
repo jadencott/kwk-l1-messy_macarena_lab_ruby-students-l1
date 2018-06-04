@@ -12,3 +12,10 @@ def about_emma
   puts "She studies criminal justice"
 end
 
+local_greeting = "hey there".upcase
+your_name = "chen".capitalize
+my_name = "jaden".capitalize
+time_of_day= "evening"
+def greeting
+  puts "#{local_greeting} #{your_name}, I'm #{my_name}, how's your #{time_of_day}?"
+end
